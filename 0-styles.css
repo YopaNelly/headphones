@@ -1,0 +1,78 @@
+#logo {
+  width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 4;
+  padding: 0.4rem;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: #000;
+}
+
+.main{
+flex-direction: row;
+  width:auto;
+height: 800px;
+flex-shrink: 0;
+border: 1px solid #979797;
+background: #D8D8D8;
+background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg");
+}
+.logo{
+  width: 161px;
+height: 32px;
+flex-shrink: 0;
+
+}
+.link{
+  background-color: #FF6565;
+  display: inline-flex;
+height: 15px;
+justify-content: center;
+align-items: flex-start;
+gap: 41px;
+flex-shrink: 0;
+}
+.nav{
+  color: #FFF;
+font-family: Source Sans Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Make the ul element inline and set padding */
+nav.link ul {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+/* Style the list item as inline */
+nav.link ul li {
+    display: inline-block
+}
+
+/* Remove the bullet points for list items */
+nav.link ul li::before {
+    display: none;
+}
+
+/* style links when user hovers over them */
+nav.link ul li a:hover {
+    color: #FF6565;
+}
+
+/* style links when they are active or being clicked */
+nav.link ul li a:active {
+    color: #000;
+}
+.yo{
+  flex-wrap: wrap;
+  flex-direction: space-between;
+  align-items: end;
+}
