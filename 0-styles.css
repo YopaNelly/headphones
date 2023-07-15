@@ -1,21 +1,26 @@
 #logo {
   width: max(100px, 18vw);
-  background-color: #0a0a23;
   aspect-ratio: 35 / 4;
   padding: 0.4rem;
-  vertical-align: middle;
-  display: inline-block;
-  background-color: #000;
 }
 
 .main{
-flex-direction: row;
+   
   width:auto;
 height: 800px;
 flex-shrink: 0;
 border: 1px solid #979797;
 background: #D8D8D8;
-background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg");
+background-image: url("images/headphones_hero_1.jpg");
+}
+.top{
+display: flex;
+padding: 10px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: flex-start;
+    justify-content: space-around;
 }
 .logo{
   width: 161px;
@@ -24,10 +29,10 @@ flex-shrink: 0;
 
 }
 .link{
-  background-color: #FF6565;
-  display: inline-flex;
-height: 15px;
-justify-content: center;
+display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+  height: 15px;
 align-items: flex-start;
 gap: 41px;
 flex-shrink: 0;
@@ -39,6 +44,10 @@ font-size: 12px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+a {
+  color: rgb(252, 248, 248);
+  text-decoration: none;
 }
 
 ul {
@@ -71,8 +80,143 @@ nav.link ul li a:hover {
 nav.link ul li a:active {
     color: #000;
 }
-.yo{
-  flex-wrap: wrap;
-  flex-direction: space-between;
-  align-items: end;
+.top1{
+  width: 637px;
+height: 313px;
+text-align: center;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content:center;
+    justify-content:center;
+  margin: 200px auto;
+
+padding: 10px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content: flex-start;
+    justify-content: space-around;
 }
+
+.top1 > div {
+  margin: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.H1{
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.H2{
+  color: #FFF;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+button{
+  width: 162px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 22px;
+background: #FF6565;
+}
+.call{
+  color: #FFF;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.top2{
+  color: #FFF;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+.link {
+    display: none;
+}
+
+.burger {
+    display: block;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+@media (min-width: 375px) {
+    .burger {
+        display: none;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+.burger {
+    transition: transform 0.5s ease;
+}
+
+.burger.active {
+    transform: rotate(90deg);
+}
+
+@media (min-width: 375px) {
+    .burger {
+        display: none;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.link {
+    display: none;
+}
+
+.burger {
+    display: block;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+@media (min-width: 375px) {
+    .burger {
+        display: none;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
