@@ -11,6 +11,8 @@ height: 800px;
 flex-shrink: 0;
 border: 1px solid #979797;
 background: #D8D8D8;
+ background-size: cover;
+  background-position: center;
 background-image: url("images/headphones_hero_1.jpg");
 }
 .top{
