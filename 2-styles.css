@@ -418,3 +418,25 @@ align-items: center;
 align-items: center;
   }
 }
+
+.contact{
+  background-color: #FF6565;
+width: 335px;
+height: 373px;
+flex-shrink: 0;
+border-radius: 50px solid black;
+}
+/* spacing around the result section*/
+.space1{
+  height: 141px;
+  border: 34px solid #D8D8D8;
+}
+.space2{
+  height: 20px;
+  border: 34px solid #D8D8D8;
+}
+.space3{
+  height: 20px;
+  border: 34px solid #D8D8D8;
+
+}
